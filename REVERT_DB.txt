@@ -1,0 +1,10 @@
+# REVERT_DB
+Arraste o arquivo de backup pro bat e já era.
+
+## KNOWN ISSUES:
+- Às vezes o Winrar não tá %ProgramFiles%, tá em outra variável (x86)
+- PostgreSQL tá na pasta versionada, precisa estar no path ou algo parecido
+
+## Ideias
+- Colocar como padrão de ambiente de desenvolvimento %WINRAR_FOLDER% e %PSQL_FOLDER% ou
+- Colocar ambos no PATH, assim rodamos os comandos sem fullpath.
